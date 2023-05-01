@@ -1,0 +1,64 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint32",
+				"name": "",
+				"type": "uint32"
+			},
+			{
+				"internalType": "uint64",
+				"name": "",
+				"type": "uint64"
+			}
+		],
+		"name": "attendanceRecords",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "timestamp",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint32",
+				"name": "pid",
+				"type": "uint32"
+			},
+			{
+				"internalType": "uint64",
+				"name": "lectureId",
+				"type": "uint64"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint32",
+				"name": "_pid",
+				"type": "uint32"
+			},
+			{
+				"internalType": "uint64",
+				"name": "_lectureId",
+				"type": "uint64"
+			}
+		],
+		"name": "markAttendance",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
