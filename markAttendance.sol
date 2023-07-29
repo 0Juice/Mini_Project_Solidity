@@ -2,7 +2,6 @@ pragma solidity ^0.8.0;
 
 contract StudentAttendance {
     struct AttendanceRecord {
-        string user;
         string name;
         uint256 timestamp;
         uint32 pid;
